@@ -98,21 +98,25 @@ export const Projects = [
     title: "ChatApp",
     text: "A full stack web application using socketio for real-time communication. It uses jwt for authentication and Zustand for state management",
     src: "/chatapp.png",
+    link: "https://github.com/Ankur5522/ChatApp"
   },
   {
     title: "Memories",
     text: "A web application that is built on MERN stack and Material UI. It uses jwt and google auth for authentication and redux for state management",
     src: "/memories.png",
+    link: "https://github.com/Ankur5522/Memories"
   },
   {
     title: "ResQnet",
     text: "A mobile application that is built on React Native and Nodejs. It is a one stop solution for emergency resuce services",
     src: "/resqnet.png",
+    link: "https://github.com/Ankur5522/ResQnet"
   },
   {
     title: "DashBoard",
     text: "This is a full stack web application using MERN stack. It is a dashboad for showcasing your projects.",
     src: "/dashboard.png",
+    link: "https://github.com/Ankur5522/Dashboard"
   },
 ];
 
