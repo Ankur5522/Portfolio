@@ -27,11 +27,11 @@ const Navigation = () => {
     }
   }, [isRouting]);
   return (
-    <div
-      className="absolute z-[50] -bottom-20 w-[80%] left-[10%] sm:left-[20%] md:w-[20%] max-h-[145px] rounded-[40px] flex justify-between items-center border bg-black border-white px-8 pb-7 pt-4"
-    >
-
+    <>
       {isRouting && <Transition />}
+      <div
+    className="absolute z-[50] -bottom-20 w-[80%] left-[10%] sm:left-[40%] md:w-[20%] max-h-[145px] rounded-[40px] flex justify-between items-center border bg-black border-white px-8 pb-7 pt-4"
+    >
       {NavLinks.map((nav) => (
         <Link key={nav.name} href={nav.link} className="mb-16 pl-4 min-w-[20%]">
           <nav.icon
@@ -42,6 +42,7 @@ const Navigation = () => {
         </Link>
       ))}
     </div>
+    </>
   );
 };
 
